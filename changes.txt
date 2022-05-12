@@ -1,0 +1,6 @@
+there has been a single change:
+
+PlayersManager.cpp 
+    StatusType PlayersManager::MergeGroups(int GroupID1, int GroupID2)
+
+    the if statements in lines 26 and 32 were swapped. (only a change in the inner order, there is no changes in the contet)
